@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-abstract-vector-polygonal-dark-blue-background-with-triangle-shape-grid-science-image_435749.jpg);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.main{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(193, 41, 41, 0);
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 2px; 
+    backdrop-filter: blur(10px);
+}
+.main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    background-color:rgba(60, 60, 129, 0.533);
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: white;
+}
+.btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #4952507d;
+    border-radius: 6px;
+    color: white;
+}
+.btn input[type='button']:hover{
+    background-color: black;
+    color: white;
+}
